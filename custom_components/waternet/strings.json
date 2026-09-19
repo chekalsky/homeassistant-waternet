@@ -1,5 +1,11 @@
 {
   "config": {
+    "step": {
+      "user": {
+        "title": "Waternet",
+        "description": "Fetches Amsterdam Waternet drinking-water tariffs. No account is needed."
+      }
+    },
     "abort": {
       "already_configured": "Waternet is already configured.",
       "cannot_connect": "Could not read the Waternet tariff page."

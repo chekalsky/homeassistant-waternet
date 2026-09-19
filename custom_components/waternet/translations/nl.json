@@ -1,5 +1,11 @@
 {
   "config": {
+    "step": {
+      "user": {
+        "title": "Waternet",
+        "description": "Haalt de drinkwatertarieven van Waternet op. Er is geen account nodig."
+      }
+    },
     "abort": {
       "already_configured": "Waternet is al geconfigureerd.",
       "cannot_connect": "De Waternet-tarievenpagina kon niet worden gelezen."
