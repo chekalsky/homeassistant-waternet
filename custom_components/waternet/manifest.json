@@ -1,0 +1,12 @@
+{
+  "domain": "waternet",
+  "name": "Waternet",
+  "codeowners": ["@chekalsky"],
+  "config_flow": true,
+  "documentation": "https://github.com/chekalsky/homeassistant-waternet",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/chekalsky/homeassistant-waternet/issues",
+  "single_config_entry": true,
+  "version": "0.1.0"
+}

@@ -1,0 +1,29 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Waternet is already configured.",
+      "cannot_connect": "Could not read the Waternet tariff page."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "price_per_liter": {
+        "name": "Price per liter"
+      },
+      "price_per_m3": {
+        "name": "Price per m³"
+      },
+      "standing_charge": {
+        "name": "Standing charge"
+      },
+      "last_successful_fetch": {
+        "name": "Last successful update"
+      }
+    },
+    "binary_sensor": {
+      "last_update_successful": {
+        "name": "Connection"
+      }
+    }
+  }
+}

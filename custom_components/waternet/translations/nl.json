@@ -1,0 +1,29 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Waternet is al geconfigureerd.",
+      "cannot_connect": "De Waternet-tarievenpagina kon niet worden gelezen."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "price_per_liter": {
+        "name": "Prijs per liter"
+      },
+      "price_per_m3": {
+        "name": "Prijs per m³"
+      },
+      "standing_charge": {
+        "name": "Vaste kosten"
+      },
+      "last_successful_fetch": {
+        "name": "Laatste succesvolle update"
+      }
+    },
+    "binary_sensor": {
+      "last_update_successful": {
+        "name": "Verbinding"
+      }
+    }
+  }
+}
