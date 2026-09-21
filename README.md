@@ -18,6 +18,8 @@ No Waternet account is needed.
 | Last successful update | datetime | Last time Waternet was read successfully |
 | Connection | connected/disconnected | Latest daily fetch succeeded |
 
+![Waternet sensors in Home Assistant](images/sensors.png)
+
 Price sensors keep the last good value if a later fetch fails. `last_update_successful` goes off in that case.
 
 Attributes on each: tariff year, water €/m³, BOL €/m³, VAT %, standing charge €/year excl. VAT.
