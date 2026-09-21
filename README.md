@@ -8,6 +8,8 @@ number will stay the same.
 
 No Waternet account is needed.
 
+<img src="images/sensors.png" alt="Waternet sensors in Home Assistant" width="394">
+
 ## What you get
 
 | Sensor | Unit | Meaning |
@@ -17,8 +19,6 @@ No Waternet account is needed.
 | Standing charge | EUR/year | Vaste kosten + 9% VAT |
 | Last successful update | datetime | Last time Waternet was read successfully |
 | Connection | connected/disconnected | Latest daily fetch succeeded |
-
-![Waternet sensors in Home Assistant](images/sensors.png)
 
 Price sensors keep the last good value if a later fetch fails. `last_update_successful` goes off in that case.
 
